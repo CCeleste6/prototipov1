@@ -8,6 +8,26 @@ let aluno = {
   nota: 0
 };
 
+
+document.addEventListener("DOMContentLoaded", () => {
+  const casaEscolhida = localStorage.getItem("casaEscolhida");
+  if (casaEscolhida) {
+    aluno.casaEscolhida = casaEscolhida;
+    const span = document.getElementById("casa-escolhida");
+    if (span) span.textContent = casaEscolhida;
+  }
+
+  const pmSpan = document.getElementById("pm");
+  if (pmSpan) pmSpan.textContent = aluno.pm;
+
+  const pcSpan = document.getElementById("pc");
+  if (pcSpan) pcSpan.textContent = aluno.pc;
+
+  const notaSpan = document.getElementById("nota");
+  if (notaSpan) notaSpan.textContent = aluno.nota;
+});
+
+// 🔹 Quiz
 document.addEventListener("DOMContentLoaded", () => {
   const quizForm = document.getElementById("quiz-form");
   if (quizForm) {
@@ -26,87 +46,30 @@ document.addEventListener("DOMContentLoaded", () => {
 function confirmarCasa() {
   if (aluno.casaSugerida) {
     aluno.casaEscolhida = aluno.casaSugerida;
-    alert("Casa confirmada: " + aluno.casaEscolhida);
-  }
-}
-
-function corrigirAtividades() {
-  let acertos = 0;
-  if (parseInt(document.getElementById("resp1").value) === 56) acertos++;
-  if (parseInt(document.getElementById("resp2").value) === 27) acertos++;
-
-  aluno.pm += 10; 
-  aluno.nota = (acertos / 2) * 10;
-  aluno.pc += aluno.pm;
-
-  document.getElementById("resultado-atividades").textContent =
-    `Você acertou ${acertos}/2 questões. Nota: ${aluno.nota}. PM ganho: 10. PC atual: ${aluno.pc}`;
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  const lista = document.getElementById("lista-vantagens");
-  if (lista) {
-    const vantagens = [
-      { nome: "Escudo da Disciplina I", ranque: 1 },
-      { nome: "Juramento de Aço", ranque: 3 }
-    ];
-    vantagens.forEach(v => {
-      if (v.ranque <= aluno.ranque) {
-        const li = document.createElement("li");
-        li.textContent = v.nome;
-        lista.appendChild(li);
-      }
-    });
-  }
-});
-
-function confirmarCasa() {
-  if (aluno.casaSugerida) {
-    aluno.casaEscolhida = aluno.casaSugerida;
     localStorage.setItem("casaEscolhida", aluno.casaEscolhida);
     alert("Casa confirmada: " + aluno.casaEscolhida);
   }
 }
 
+// 🔹 Atividades
+function corrigirAtividades() {
+  let acertos = 0;
+  if (parseInt(document.getElementById("resp1").value) === 56) acertos++;
+  if (parseInt(document.getElementById("resp2").value) === 27) acertos++;
 
-document.addEventListener("DOMContentLoaded", () => {
-  const casaEscolhida = localStorage.getItem("casaEscolhida");
-  if (casaEscolhida) {
-    aluno.casaEscolhida = casaEscolhida;
-    const span = document.getElementById("casa-escolhida");
-    if (span) span.textContent = casaEscolhida;
-  }
-});
+  aluno.pm += 10;
+  aluno.nota = (acertos / 2) * 10;
+  aluno.pc += aluno.pm; 
+
+  localStorage.setItem("pm", aluno.pm);
+  localStorage.setItem("pc", aluno.pc);
+  localStorage.setItem("nota", aluno.nota);
+
+  document.getElementById("resultado-atividades").textContent =
+    `Você acertou ${acertos}/2 questões. Nota: ${aluno.nota}. PM ganho: 10. PC atual: ${aluno.pc}`;
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const lista = document.getElementById("lista-vantagens");
   if (lista) {
-    
-    if (!aluno.casaEscolhida) {
-      lista.textContent = "Escolha sua casa primeiro no Quiz!";
-      return;
-    }
-
-    
-    const vantagensPorCasa = {
-      guardioes: [
-        { nome: "Escudo da Disciplina I", ranque: 1 },
-        { nome: "Juramento de Aço", ranque: 3 }
-      ],
-      solidarios: [
-        { nome: "Apoio Moral I", ranque: 1 },
-        { nome: "Harmonia Plena", ranque: 3 }
-      ]
-      
-    };
-
-    const vantagens = vantagensPorCasa[aluno.casaEscolhida] || [];
-    vantagens.forEach(v => {
-      if (v.ranque <= aluno.ranque) {
-        const li = document.createElement("li");
-        li.textContent = v.nome;
-        lista.appendChild(li);
-      }
-    });
-  }
-});
