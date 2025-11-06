@@ -1,0 +1,106 @@
+{
+  "nome": "Guardiões",
+  "descricao": "Disciplina, responsabilidade e proteção.",
+  "tiers": [
+    {
+      "nivel": 1,
+      "ranques": [
+        {
+          "numero": 1,
+          "vantagens": [
+            {"nome": "Escudo da Disciplina I", "efeito": "+3 pontos"},
+            {"nome": "Responsabilidade Compartilhada I", "efeito": "+5 pontos"},
+            {"nome": "Defesa Coletiva I", "efeito": "+7 pontos"}
+          ]
+        },
+        {
+          "numero": 2,
+          "vantagens": [
+            {"nome": "Escudo da Disciplina II", "efeito": "+6 pontos"},
+            {"nome": "Responsabilidade Compartilhada II", "efeito": "+9 pontos"},
+            {"nome": "Defesa Coletiva II", "efeito": "+12 pontos"}
+          ]
+        },
+        {
+          "numero": 3,
+          "vantagens": [
+            {"nome": "Escudo da Disciplina III", "efeito": "+9 pontos"},
+            {"nome": "Responsabilidade Compartilhada III", "efeito": "+13 pontos"},
+            {"nome": "Defesa Coletiva III", "efeito": "+16 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "ranques": [
+        {
+          "numero": 4,
+          "vantagens": [
+            {"nome": "Código da Honra I", "efeito": "+12 pontos"},
+            {"nome": "Vigilância Coletiva I", "efeito": "+16 pontos"},
+            {"nome": "Proteção Constante I", "efeito": "+20 pontos"}
+          ]
+        },
+        {
+          "numero": 5,
+          "vantagens": [
+            {"nome": "Código da Honra II", "efeito": "+15 pontos"},
+            {"nome": "Vigilância Coletiva II", "efeito": "+20 pontos"},
+            {"nome": "Proteção Constante II", "efeito": "+25 pontos"}
+          ]
+        },
+        {
+          "numero": 6,
+          "vantagens": [
+            {"nome": "Código da Honra III", "efeito": "+18 pontos"},
+            {"nome": "Vigilância Coletiva III", "efeito": "+24 pontos"},
+            {"nome": "Proteção Constante III", "efeito": "+30 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "ranques": [
+        {
+          "numero": 7,
+          "vantagens": [
+            {"nome": "Juramento de Aço", "efeito": "+60 pontos"},
+            {"nome": "Fortaleza Impecável", "efeito": "+100 pontos"},
+            {"nome": "Olhos da Vigília", "efeito": "duplicar pontuação semanal"}
+          ]
+        },
+        {
+          "numero": 8,
+          "vantagens": [
+            {"nome": "Comando da Ordem", "efeito": "+80 pontos"},
+            {"nome": "Ritual da Pontualidade", "efeito": "+90 pontos"},
+            {"nome": "Disciplina Contagiante", "efeito": "triplicar pontuação semanal"}
+          ]
+        },
+        {
+          "numero": 9,
+          "vantagens": [
+            {"nome": "Guardião Supremo", "efeito": "+150 pontos"},
+            {"nome": "Sentinela Eterna", "efeito": "+200 pontos"},
+            {"nome": "Linha Intransponível", "efeito": "quadruplicar pontuação semanal"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "ranques": [
+        {
+          "numero": 10,
+          "vantagens": [
+            {"nome": "Estandarte da Ordem", "efeito": "multiplicar por 2 pontos da temporada"},
+            {"nome": "Legião Inabalável", "efeito": "+300 pontos"},
+            {"nome": "Coluna da Disciplina", "efeito": "+500 pontos acumulados"}
+          ]
+        }
+      ]
+    }
+  ]
+}
