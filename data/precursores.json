@@ -1,0 +1,106 @@
+{
+  "nome": "Precursores",
+  "descricao": "Liderança, pioneirismo e coragem.",
+  "tiers": [
+    {
+      "nivel": 1,
+      "ranques": [
+        {
+          "numero": 1,
+          "vantagens": [
+            {"nome": "Primeiro Passo", "efeito": "+3 pontos"},
+            {"nome": "Coragem Inicial", "efeito": "+5 pontos"},
+            {"nome": "Exemplo Inspirador", "efeito": "+7 pontos"}
+          ]
+        },
+        {
+          "numero": 2,
+          "vantagens": [
+            {"nome": "Primeiro Passo II", "efeito": "+6 pontos"},
+            {"nome": "Coragem Inicial II", "efeito": "+9 pontos"},
+            {"nome": "Exemplo Inspirador II", "efeito": "+12 pontos"}
+          ]
+        },
+        {
+          "numero": 3,
+          "vantagens": [
+            {"nome": "Primeiro Passo III", "efeito": "+9 pontos"},
+            {"nome": "Coragem Inicial III", "efeito": "+13 pontos"},
+            {"nome": "Exemplo Inspirador III", "efeito": "+16 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "ranques": [
+        {
+          "numero": 4,
+          "vantagens": [
+            {"nome": "Pioneiro da Turma", "efeito": "+15 pontos"},
+            {"nome": "Corajoso em Ação", "efeito": "+18 pontos"},
+            {"nome": "Exemplo Reconhecido", "efeito": "+20 pontos"}
+          ]
+        },
+        {
+          "numero": 5,
+          "vantagens": [
+            {"nome": "Iniciativa Pioneira", "efeito": "+22 pontos"},
+            {"nome": "Líder Inspirador", "efeito": "+25 pontos"},
+            {"nome": "Primeiro a Conquistar", "efeito": "+28 pontos"}
+          ]
+        },
+        {
+          "numero": 6,
+          "vantagens": [
+            {"nome": "Trilha Inédita", "efeito": "+30 pontos"},
+            {"nome": "Movimento Precursor", "efeito": "+35 pontos"},
+            {"nome": "Risco Audaz", "efeito": "+40 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "ranques": [
+        {
+          "numero": 7,
+          "vantagens": [
+            {"nome": "Explorador de Novos Caminhos", "efeito": "+60 pontos"},
+            {"nome": "Catalisador de Pioneirismo", "efeito": "+80 pontos"},
+            {"nome": "Exemplo Contagiante", "efeito": "duplicar pontuação de atividades replicadas"}
+          ]
+        },
+        {
+          "numero": 8,
+          "vantagens": [
+            {"nome": "Missão Inédita", "efeito": "+100 pontos"},
+            {"nome": "Desbravador Solitário", "efeito": "+120 pontos"},
+            {"nome": "Semana Pioneira", "efeito": "triplicar pontuação semanal"}
+          ]
+        },
+        {
+          "numero": 9,
+          "vantagens": [
+            {"nome": "Vanguarda Absoluta", "efeito": "+150 pontos"},
+            {"nome": "Rota do Destemido", "efeito": "+200 pontos"},
+            {"nome": "Legado Audaz", "efeito": "+250 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "ranques": [
+        {
+          "numero": 10,
+          "vantagens": [
+            {"nome": "Manifesto Pioneiro", "efeito": "+300 pontos"},
+            {"nome": "Gênio Precursor", "efeito": "+400 pontos"},
+            {"nome": "Horizonte Desbravado", "efeito": "multiplicar por 5 a pontuação final"}
+          ]
+        }
+      ]
+    }
+  ]
+}
