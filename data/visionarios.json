@@ -1,1 +1,106 @@
-
+{
+  "nome": "Visionários",
+  "descricao": "Criatividade, ousadia e inovação.",
+  "tiers": [
+    {
+      "nivel": 1,
+      "ranques": [
+        {
+          "numero": 1,
+          "vantagens": [
+            {"nome": "Faísca Criativa", "efeito": "+3 pontos"},
+            {"nome": "Ousadia Inicial", "efeito": "+5 pontos"},
+            {"nome": "Inspiração Compartilhada", "efeito": "+7 pontos"}
+          ]
+        },
+        {
+          "numero": 2,
+          "vantagens": [
+            {"nome": "Faísca Criativa II", "efeito": "+6 pontos"},
+            {"nome": "Ousadia Inicial II", "efeito": "+9 pontos"},
+            {"nome": "Inspiração Compartilhada II", "efeito": "+12 pontos"}
+          ]
+        },
+        {
+          "numero": 3,
+          "vantagens": [
+            {"nome": "Faísca Criativa III", "efeito": "+9 pontos"},
+            {"nome": "Ousadia Inicial III", "efeito": "+13 pontos"},
+            {"nome": "Inspiração Compartilhada III", "efeito": "+16 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "ranques": [
+        {
+          "numero": 4,
+          "vantagens": [
+            {"nome": "Laboratório Vivo", "efeito": "+15 pontos"},
+            {"nome": "Centelha Coletiva", "efeito": "+18 pontos"},
+            {"nome": "Ousadia Reconhecida", "efeito": "+20 pontos"}
+          ]
+        },
+        {
+          "numero": 5,
+          "vantagens": [
+            {"nome": "Inovador em Ação", "efeito": "+22 pontos"},
+            {"nome": "Inspirador de Criações", "efeito": "+25 pontos"},
+            {"nome": "Prototipagem Visionária", "efeito": "+28 pontos"}
+          ]
+        },
+        {
+          "numero": 6,
+          "vantagens": [
+            {"nome": "Piloto Visionário", "efeito": "+30 pontos"},
+            {"nome": "Movimento Visionário", "efeito": "+35 pontos"},
+            {"nome": "Risco Brilhante", "efeito": "+40 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "ranques": [
+        {
+          "numero": 7,
+          "vantagens": [
+            {"nome": "Oficina de Possibilidades", "efeito": "+60 pontos"},
+            {"nome": "Catalisador de Mudanças", "efeito": "+80 pontos"},
+            {"nome": "Faísca Contagiante", "efeito": "duplicar pontuação de atividades replicadas"}
+          ]
+        },
+        {
+          "numero": 8,
+          "vantagens": [
+            {"nome": "Laboratório Aberto", "efeito": "+100 pontos"},
+            {"nome": "Inventor Solitário", "efeito": "+120 pontos"},
+            {"nome": "Festival de Ideias", "efeito": "triplicar pontuação semanal"}
+          ]
+        },
+        {
+          "numero": 9,
+          "vantagens": [
+            {"nome": "Visão que Ecoa", "efeito": "+150 pontos"},
+            {"nome": "Mente Brilhante", "efeito": "+200 pontos"},
+            {"nome": "Impacto Coletivo", "efeito": "quadruplicar pontuação final"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "ranques": [
+        {
+          "numero": 10,
+          "vantagens": [
+            {"nome": "Manifesto Criativo", "efeito": "+300 pontos"},
+            {"nome": "Gênio Visionário", "efeito": "+400 pontos"},
+            {"nome": "Horizonte Infinito", "efeito": "multiplicar por 5 a pontuação final"}
+          ]
+        }
+      ]
+    }
+  ]
+}
