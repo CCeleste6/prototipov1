@@ -1,39 +1,34 @@
-<div id="hud">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Legado Mundial - Perfil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
   <header>
-    <h1>Sistema de Casas</h1>
+    <h1>Legado Mundial</h1>
   </header>
 
-  <section class="casas">
-    <div class="casa guardioes">
-      <h2>Guardiões 🛡️</h2>
-      <p>Pontos: <span id="pontos-guardioes">0</span></p>
-      <ul id="vantagens-guardioes"></ul>
-    </div>
+  <main>
+    <section id="perfil">
+      <h2>Perfil do Aluno</h2>
+      <p>Nome: <span id="nome-aluno">Rodrigo</span></p>
+      <p>Casa sugerida: <span id="casa-sugerida">?</span></p>
+      <p>Casa escolhida: <span id="casa-escolhida">?</span></p>
+      <p>Ranque atual: <span id="ranque">1</span></p>
+      <p>PM: <span id="pm">0</span></p>
+      <p>PC: <span id="pc">0</span></p>
+      <p>Nota escolar: <span id="nota">0</span></p>
+    </section>
 
-    <div class="casa visionarios">
-      <h2>Visionários 🌟</h2>
-      <p>Pontos: <span id="pontos-visionarios">0</span></p>
-      <ul id="vantagens-visionarios"></ul>
-    </div>
+    <nav>
+      <a href="quiz.html">Quiz de Casas</a>
+      <a href="atividades.html">Atividades</a>
+      <a href="vantagens.html">Vantagens</a>
+    </nav>
+  </main>
 
-    <div class="casa precursores">
-      <h2>Precursores 🚀</h2>
-      <p>Pontos: <span id="pontos-precursores">0</span></p>
-      <ul id="vantagens-precursores"></ul>
-    </div>
-
-    <div class="casa solidarios">
-      <h2>Solidários 🤝</h2>
-      <p>Pontos: <span id="pontos-solidarios">0</span></p>
-      <ul id="vantagens-solidarios"></ul>
-    </div>
-  </section>
-
-  <section id="ranking">
-    <h2>Ranking das Casas</h2>
-    <ol id="lista-ranking"></ol>
-  </section>
-</div>
-
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
