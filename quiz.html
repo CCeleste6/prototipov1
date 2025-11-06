@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz - Escolha sua Casa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Quiz de Casas</h1></header>
+  <main>
+    <form id="quiz-form">
+      <p>Você prefere:</p>
+      <label><input type="radio" name="q1" value="visionarios"> Criar ideias novas</label>
+      <label><input type="radio" name="q1" value="precursores"> Ser o primeiro a agir</label>
+      <label><input type="radio" name="q1" value="guardioes"> Manter disciplina</label>
+      <label><input type="radio" name="q1" value="solidarios"> Ajudar os colegas</label>
+
+      <button type="submit">Ver sugestão</button>
+    </form>
+
+    <p id="resultado"></p>
+    <button onclick="confirmarCasa()">Confirmar Casa</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
