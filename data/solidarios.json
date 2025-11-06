@@ -1,0 +1,106 @@
+{
+  "nome": "Solidários",
+  "descricao": "Empatia, colaboração e união.",
+  "tiers": [
+    {
+      "nivel": 1,
+      "ranques": [
+        {
+          "numero": 1,
+          "vantagens": [
+            {"nome": "Apoio Moral", "efeito": "+2 pontos"},
+            {"nome": "Força do Grupo", "efeito": "+3 pontos"},
+            {"nome": "Cuidado Contínuo", "efeito": "+1 ponto por atividade entregue (escala a cada 10)"}
+          ]
+        },
+        {
+          "numero": 2,
+          "vantagens": [
+            {"nome": "Apoio Moral II", "efeito": "+3 pontos"},
+            {"nome": "Força do Grupo II", "efeito": "+5 pontos"},
+            {"nome": "Cuidado Contínuo II", "efeito": "+8 pontos semanais sem faltas"}
+          ]
+        },
+        {
+          "numero": 3,
+          "vantagens": [
+            {"nome": "Apoio Moral III", "efeito": "+5 pontos"},
+            {"nome": "Força do Grupo III", "efeito": "+8 pontos"},
+            {"nome": "Cuidado Contínuo III", "efeito": "+12 pontos semanais com ≥80% acertos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "ranques": [
+        {
+          "numero": 4,
+          "vantagens": [
+            {"nome": "Voz Unida", "efeito": "+6 pontos"},
+            {"nome": "União Inquebrável", "efeito": "+10 pontos"},
+            {"nome": "Raízes Fortes", "efeito": "+15 pontos semanais sem ausência e ≥80% acertos"}
+          ]
+        },
+        {
+          "numero": 5,
+          "vantagens": [
+            {"nome": "Voz Unida II", "efeito": "+8 pontos"},
+            {"nome": "União Inquebrável II", "efeito": "+12 pontos"},
+            {"nome": "Raízes Fortes II", "efeito": "+18 pontos semanais com ≥90% acertos"}
+          ]
+        },
+        {
+          "numero": 6,
+          "vantagens": [
+            {"nome": "Voz Unida III", "efeito": "+10 pontos"},
+            {"nome": "União Inquebrável III", "efeito": "+15 pontos"},
+            {"nome": "Raízes Fortes III", "efeito": "+20 pontos semanais com 100% acertos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "ranques": [
+        {
+          "numero": 7,
+          "vantagens": [
+            {"nome": "Harmonia Plena", "efeito": "+25 pontos"},
+            {"nome": "Força Lendária", "efeito": "dobrar pontuação da atividade"},
+            {"nome": "Árvore da Vida", "efeito": "+50 pontos por mês sem falhas"}
+          ]
+        },
+        {
+          "numero": 8,
+          "vantagens": [
+            {"nome": "Círculo Inquebrável", "efeito": "+40 pontos"},
+            {"nome": "Legado Vivo", "efeito": "+100 pontos por 3 semanas seguidas 100%"},
+            {"nome": "Eco Solidário", "efeito": "+30 pontos extras"}
+          ]
+        },
+        {
+          "numero": 9,
+          "vantagens": [
+            {"nome": "Eterna Colheita", "efeito": "+150 pontos por 2 meses seguidos 100%"},
+            {"nome": "Força Transcendente", "efeito": "quadruplicar pontuação de 3 atividades"},
+            {"nome": "Aliança Perfeita", "efeito": "+60 pontos"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "ranques": [
+        {
+          "numero": 10,
+          "vantagens": [
+            {"nome": "Coroa da União", "efeito": "triplicar pontos da semana"},
+            {"nome": "Pulso Coletivo", "efeito": "+150 pontos por mês com ≥75% participação"},
+            {"nome": "Coração Único", "efeito": "+500 pontos final da temporada"}
+          ]
+        }
+      ]
+    }
+  ]
+}
